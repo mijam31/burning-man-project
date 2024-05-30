@@ -1,5 +1,88 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+@import url(/assets/css/nav.css);
+@import url(/assets/css/footer.css);
+
+#start {
+  color: white;
+}
+
+.billd {
+  background-image: url(/assets/img/the-man-burns-during-the-burning-man-2013-arts-and-music-festival-in-the-black-rock-desert-of-nevada-august-31-2013-by-jim-urquhart.png);
+  min-height: 1274px;
+  width: 100%;
+  background-size: cover;
+}
+
+.forside {
+  margin: 0 auto;
+}
+
+.forside .boks-1 {
+  padding: 50px 25px;
+  background-color: #141211dc;
+  max-width: 664px;
+  position: relative;
+  top: 125px;
+  left: 50%;
+}
+
+.forside .boks-2 {
+  padding: 50px 25px;
+  background-color: #141211dc;
+  max-width: 664px;
+  position: relative;
+  top: 200px;
+  left: 50%;
+}
+
+.boks-1 h1 {
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+}
+
+.boks-1 p {
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
+
+.boks-1 a {
+  position: relative;
+  color: white;
+  left: 80%;
+  font-style: italic;
+}
+
+.boks-1 a:hover {
+  color: #f8e2ba;
+}
+
+.boks-2 h2 {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.boks-2 p {
+  margin-bottom: 25px;
+  color: white;
+}
+
+.boks-2 h3 {
+  color: #ffff;
+}
+
+.boks-2 a {
+  position: relative;
+  color: white;
+  font-style: italic;
+
+  left: 80%;
+}
+
+.boks-2 a:hover {
+  color: #f8e2ba;
 }

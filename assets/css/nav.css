@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141211;
+  font-family: "acumin-pro", sans-serif;
+}
+
+.nav {
+  background-color: #141211;
+  display: flex;
+  max-width: 1920px;
+  min-height: 65px;
+  margin: 0 auto;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: #dfae59;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav div {
+  background-color: #dfae59;
+  width: 1px;
+  height: 35px;
+}
+
+.nav a:hover {
+  color: #f8e2ba;
+}
+
+.max-width {
+  max-width: 1920px;
+}
