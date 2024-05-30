@@ -1,0 +1,65 @@
+@import url(/assets/css/footer.css);
+@import url(/assets/css/nav.css);
+
+#kontakt {
+  color: white;
+}
+
+.billd {
+  background-image: url(/assets/img/IMG_0264.png);
+  height: 1274px;
+  width: 100%;
+}
+
+.kontakt {
+  padding: 50px 25px;
+  background-color: #141211c0;
+  max-width: 664px;
+  position: relative;
+  top: 125px;
+  left: 50%;
+  color: white;
+  margin-bottom: 69px;
+}
+
+.tlf {
+  display: flex;
+  align-items: flex-end;
+}
+
+.kontakt h2 {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.divmargin {
+  margin-bottom: 15px;
+}
+
+.findOsHer {
+  padding: 50px 25px;
+  background-color: #141211c0;
+  max-width: 664px;
+  position: relative;
+  top: 125px;
+  left: 50%;
+  color: white;
+}
+
+.findOsHer img {
+  position: relative;
+  left: 20%;
+}
+
+.findOsHer .indenIBox {
+  display: flex;
+}
+
+.findOsHer h2 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.indenIBox article div {
+  margin-bottom: 20px;
+}

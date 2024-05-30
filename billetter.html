@@ -6,6 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://use.typekit.net/woo3hhj.css" />
     <link rel="stylesheet" href="/assets/css/billetter.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="/assets/js/billetter.js" defer></script>
   </head>
   <body>
     <nav class="nav max-width">
@@ -18,31 +23,43 @@
       <a id="galleri" href="/galleri.html">Galleri</a>
     </nav>
     <div class="billd">
-      <section class="billetter">
+      <section class="billetter max-width">
         <h2>KØB BILLET NU</h2>
         <p>
           Tag del i den magiske oplevelse - køb din billet til Burning Man 2024
           i dag og bliv en del af et globalt fællesskab fyldt med kreativitet,
           kunst og uforglemmelige øjeblikke!
         </p>
-        <div><a href="">KØB BILLET</a> <a href="">BLIV EN FRIVILLIG</a></div>
+        <div>
+          <a onclick="købBillet()" href="#">KØB BILLET</a>
+          <a href="#">BLIV EN FRIVILLIG</a>
+        </div>
       </section>
-      <section class="købbilletter">
+      <section class="købbilletter max-width">
         <h2>STØT BURNING MAN</h2>
         <p>
-          Køb din egen bilet til Burning Man 2024 og støt lokale kunstner i
+          Køb din egen bilet til Burning Man 2024 og støt lokale kunstnere i
           Black Rock City - det er dem der gør vores projekt muligt!
         </p>
-        <div><a href="">KØB BILLET</a> <a href="">STØT LOKALE KUNSTNER</a></div>
+        <div class="btns">
+          <a href="#">
+            KØB BILLET
+            <div class="plusMinus">
+              <i id="minus" onclick="minus()" class="fa-solid fa-minus"></i>
+              <p id="value">0</p>
+              <i id="plus" onclick="plus()" class="fa-solid fa-plus"></i>
+            </div>
+          </a>
+          <a href="">STØT LOKALE KUNSTNERE</a>
+        </div>
       </section>
     </div>
-
     <footer class="footer">
       <a href="">Doner</a>
       <div></div>
       <a href="">Om os</a>
       <div></div>
-      <a href="">Kontakt</a>
+      <a href="/kontakt.html">Kontakt</a>
       <div></div>
       <a href="">© Copyrights 2024</a>
     </footer>

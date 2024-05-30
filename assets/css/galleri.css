@@ -20,6 +20,14 @@
   transition: ease-in-out 300ms;
 }
 
+.galleriet img {
+  box-shadow: 2px 2px 10px black;
+}
+
+.storbillede img {
+  box-shadow: 2px 2px 10px black;
+}
+
 .storbillede {
   top: 10%;
   position: relative;
@@ -66,4 +74,12 @@
   position: relative;
   top: 15%;
   cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.active {
+  display: block;
 }
