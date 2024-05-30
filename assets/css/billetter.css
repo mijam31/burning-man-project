@@ -1,0 +1,103 @@
+@import url(/assets/css/nav.css);
+@import url(/assets/css/footer.css);
+
+#billetter {
+  color: white;
+}
+
+.billd {
+  background-image: url(/assets/img/Burning_Man_2009_Arin_Crumley_CC_httpflic.krp7Av4mP.png);
+  height: 1274px;
+  width: 100%;
+}
+
+.billetter {
+  padding: 50px 25px;
+  background-color: #141211c9;
+  max-width: 664px;
+  position: relative;
+  top: 125px;
+  left: 50%;
+  display: none;
+}
+
+.billetter div {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+}
+
+.billetter h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.billetter p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.billetter div a {
+  width: 600px;
+  height: 60px;
+  background-color: #dfae59;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.billetter div a:hover {
+  background-color: #0f0a05;
+  color: #dfae58;
+  font-size: 35px;
+}
+
+.købbilletter {
+  padding: 50px 25px;
+  background-color: #141211c9;
+  max-width: 664px;
+  position: relative;
+  top: 125px;
+  left: 50%;
+}
+
+.købbilletter div a {
+  width: 600px;
+  height: 60px;
+  background-color: #dfae59;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.købbilletter div {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+}
+
+.købbilletter div a:hover {
+  background-color: #0f0a05;
+  color: #dfae58;
+  font-size: 35px;
+}
+
+.købbilletter h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.købbilletter p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 40px;
+}
