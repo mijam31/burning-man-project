@@ -9,6 +9,7 @@
   background-image: url(/assets/img/IMG_0264.png);
   height: 1274px;
   width: 100%;
+  background-size: cover;
 }
 
 .kontakt {
@@ -62,4 +63,16 @@
 
 .indenIBox article div {
   margin-bottom: 20px;
+}
+
+@media screen and (width: 760px) {
+  .kontakt {
+    left: 0;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .findOsHer {
+    left: 0;
+    margin: 0 auto;
+  }
 }

@@ -86,3 +86,15 @@
 .boks-2 a:hover {
   color: #f8e2ba;
 }
+
+@media screen and (width: 760px) {
+  .forside .boks-1 {
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .forside .boks-2 {
+    left: 0;
+    margin: 0 auto;
+  }
+}

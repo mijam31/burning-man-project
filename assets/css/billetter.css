@@ -132,3 +132,14 @@
 input {
   all: unset;
 }
+
+@media screen and (width: 760px) {
+  .billetter {
+    left: 0;
+    margin: 0 auto;
+  }
+  .købbilletter {
+    left: 0;
+    margin: 0 auto;
+  }
+}

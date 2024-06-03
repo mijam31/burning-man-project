@@ -4,22 +4,22 @@ function købBillet() {
   document.querySelector(".billd").style.backgroundImage =
     "url(/assets/img/Burning_Man_16.jpg)";
 }
+let value = document.getElementById("value");
+let max = 10;
 
 function plus() {
-  if (document.getElementById("value").innerText === "1") {
-    document.getElementById("value").innerText = "2";
+  var numberValue = value.innerHTML;
+  if (numberValue < 10) {
+    numberValue++;
   }
-  if (document.getElementById("value").innerText === "2") {
-    document.getElementById("value").innerText = "2";
-  } else {
-    document.getElementById("value").innerText = "1";
-  }
+
+  value.innerHTML = numberValue;
 }
 
 function minus() {
-  if (document.getElementById("value").innerText === "2") {
-    document.getElementById("value").innerText = "1";
-  } else {
-    document.getElementById("value").innerText = "0";
+  var numberValue = value.innerHTML;
+  if (numberValue > 0) {
+    numberValue--;
   }
+  value.innerHTML = numberValue;
 }
